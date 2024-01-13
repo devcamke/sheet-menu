@@ -3,6 +3,7 @@ source "https://rubygems.org"
 ruby "3.3.0"
 
 gem "bootsnap", require: false
+gem 'google_drive', '~> 3.0', '>= 3.0.7'
 gem "importmap-rails"
 gem "jbuilder"
 gem "pg", "~> 1.1"
@@ -33,7 +34,7 @@ end
 
 group :test do
   gem 'shoulda-matchers', '~> 6.0'
-  
+
 end
 
 # Gemfile.lock
